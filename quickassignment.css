@@ -1,0 +1,188 @@
+.main-header-container{
+  background-color: brown;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  object-fit: cover;
+  margin-left: -20px;
+  margin-top: -20px;
+  margin-right: 20px;
+
+
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+body{
+	background-image: url("img1.jpg")
+	background-repeat: no-repeat;
+  display: flex;
+}
+.logo_container{
+	border-radius: 2px;
+  
+}
+	
+.login_container ul{
+	display: flex;
+	top: right;
+	position: relative;
+	
+
+}
+.login_container li {
+	list-style: none;
+	display: flex;
+	
+
+}
+.login_container  li a{
+	text-decoration: none;
+	padding: 10px;
+	top: 0;
+	border-radius: 2px;
+	font-weight: 2px;
+	font-size: 20px;
+	font-variant-caps: uppercase;
+	color: white;
+	border:2px solid white;
+	margin: 12px;
+
+
+}
+.nav-main{
+position: relative;
+}
+.nav_bar ul{ 
+	display: flex;
+
+
+}
+.nav_bar li{
+	list-style: none;
+	display: flex;
+
+
+}
+.nav_bar a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	font-size: 20px;
+	list-style: inline;
+	display: flex;
+	position: relative;
+}
+  form{
+   /* margin: 0 auto;*/
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+   background-color:lightgreen;
+   position:absolute;
+   top: 200px;
+   z-index: -2;
+   
+  }
+      body{
+        background-color: lightgreen;
+      }
+      abbr
+      {
+        color: red;
+      }
+      select
+      {
+        background: lightblue;
+       
+      }
+      textarea
+      {
+        vertical-align: top;
+      }
+      h1{
+        color: red;
+      }
+      form button{
+      	background-color: brown;l
+      	font-size: 20px;
+      	border-radius: 7px;
+      	color:white;
+      } 
+
+
+
+
+
+
+      .carousel{
+      	position: relative;
+      	height: 500px;
+      	width: 80%;  
+      	margin:0 auto;
+
+      }
+      .carousel-image{
+      	width: 100% ;
+      	height: 50%;
+      	object-fit: cover;
+
+      }
+      .carousel__track--container{
+      	background-color: lightgreen;
+      	padding: 10px;
+      }
+      .carousel__track{
+      	padding: 0;
+      	margin:0;
+      	list-style: none;
+      }
+      .carousel__slide{
+      	position: absolute;
+      	top: 0;
+      	bottom: 0;
+      	width: 100%;
+      }
+   }
+       .carousel__button{
+       	position: absolute;
+       	top: 50%;
+       	transform: translateY(-50%);
+       	background-color: transparent;
+       	border-radius: 0;
+       	cursor: pointer;
+
+       }
+
+
+       .carousel__button--left{
+       	left: -40px;
+
+       }
+       .carousel__button--right{
+       	right: -40;
+       }
+       .carousel__button img{
+       	width: 12px;
+
+       }
+       .carousel__nav{
+       	background-color: red;
+       	display: flex;
+       	justify-content: center;
+       	padding: 10px 0;
+
+       }
+       .carousel__indicator{
+       	border-radius: 0;
+       	border-radius: 50%;
+       	border-image-width: 15px;
+       	height: 15px;
+       	background-color: black;
+       	margin-right: 0 12px;
+       }
